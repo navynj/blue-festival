@@ -3,7 +3,7 @@ import styles from '../styles/time-table/TimeTable.module.css';
 
 const TimeTable = () => {
   return (
-    <section>
+    <section id="time-table">
       <h2>Time Table</h2>
     </section>
   );

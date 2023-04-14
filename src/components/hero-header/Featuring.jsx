@@ -1,18 +1,21 @@
 import React from 'react';
 import styles from '../../styles/hero-header/Featuring.module.css';
+import { featuringList } from '../../data/hero';
 
 const Featuring = () => {
   return (
-    <section>
-      <h3>Featuring</h3>
+    <section className={styles.container}>
+      <h5>Featuring</h5>
       <ul>
-        <li>
-          <div>
-            <img style={{ width: '5rem' }} src="/images/blue-paint-1.png" />
-            <h6>Cerulean</h6>
-            <p>Cerulean Skies</p>
-          </div>
-        </li>
+        {featuringList.map((item, i) => (
+          <li key={i}>
+            <div className={styles.imgHolder}>
+              <img src={item.img} />
+            </div>
+            <h6>{item.name}</h6>
+            <p>{item.description}</p>
+          </li>
+        ))}
       </ul>
     </section>
   );

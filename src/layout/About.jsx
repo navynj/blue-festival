@@ -3,7 +3,7 @@ import styles from '../styles/about/AboutItem.module.css';
 
 const About = () => {
   return (
-    <section>
+    <section id="about">
       <h2>About</h2>
     </section>
   );

@@ -9,14 +9,22 @@ import TimeTable from './layout/TimeTable';
 
 function App() {
   return (
-    <div>
+    <div id="container">
       <HeroHeader />
       <main>
         <About />
         <TimeTable />
         <Tickets />
       </main>
-      <Button type={BUTTON_TYPE.WHITE}>Top</Button>
+      <Button
+        style={BUTTON_TYPE.WHITE}
+        onClick={() => {
+          scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      >
+        ↑<br />
+        Top
+      </Button>
       <Footer />
     </div>
   );

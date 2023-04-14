@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../../styles/hero-header/Nav.module.css';
 
 const Nav = () => {
   return (

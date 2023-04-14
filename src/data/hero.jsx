@@ -36,7 +36,7 @@ export const featuringList = [
   },
 ];
 
-export const introduce = (
+export const introduceDescription = (
   <>
     <p>
       Join us at Blue Festival, where the beauty and power of blue music comes

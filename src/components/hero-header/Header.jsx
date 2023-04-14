@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../../styles/hero-header/Header.module.css';
 
 const Header = () => {
   return (

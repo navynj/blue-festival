@@ -3,7 +3,7 @@ import styles from '../styles/tickets/Tickets.module.css';
 
 const Tickets = () => {
   return (
-    <section>
+    <section id="tickets">
       <h2>Tickets</h2>
     </section>
   );

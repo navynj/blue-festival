@@ -8,18 +8,23 @@ import Nav from '../components/hero-header/Nav';
 
 const Top = () => {
   return (
-    <div className="hero">
+    <>
       {/* autoPlay loop muted */}
-      <video id="hero-bg">
+      <video className={styles.heroBg}>
         <source src="/video/blue-satin.mp4" type="video/mp4" />
       </video>
-      <Header />
-      <Nav />
-      <div>
-        <Featuring />
-        <Introduce />
+      <div className={styles.heroContent}>
+        <div className={styles.titles}>
+          <Header />
+          <Nav />
+        </div>
+        <div className={styles.description}>
+          <Featuring />
+          <Introduce />
+        </div>
       </div>
-    </div>
+      <div className={styles.holder} />
+    </>
   );
 };
 
