@@ -1,19 +1,19 @@
 import React from 'react';
-import styles from '../../styles/hero-header/Featuring.module.css';
+import '../../styles/hero-header.css';
 import { featuringList } from '../../data/hero';
 
 const Featuring = () => {
   return (
-    <section className={styles.container}>
-      <h5>Featuring</h5>
-      <ul>
+    <section className="hero-featuring">
+      <h3>Featuring</h3>
+      <ul className="flex-row">
         {featuringList.map((item, i) => (
-          <li key={i}>
-            <div className={styles.imgHolder}>
+          <li key={i} className="w-full flex-column flex-start-center text-center">
+            <div className="circle-md bg-white img-holder">
               <img src={item.img} />
             </div>
             <h6>{item.name}</h6>
-            <p>{item.description}</p>
+            <p className="text-md">{item.description}</p>
           </li>
         ))}
       </ul>

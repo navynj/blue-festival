@@ -3,7 +3,7 @@ import React from 'react';
 const Nav = () => {
   return (
     <nav>
-      <ul>
+      <ul className="flex-row text-2xl">
         <li>
           <a href="#about">About</a>
         </li>

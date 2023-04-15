@@ -1,15 +1,19 @@
 import React from 'react';
-import styles from '../../styles/hero-header/Introduce.module.css';
+import '../../styles/hero-header.css';
 import { introduceDescription } from '../../data/hero';
-import Button from '../ui/Button';
-import { BUTTON_TYPE } from '../../constants/types';
 
 const Introduce = () => {
   return (
-    <section className={styles.container}>
-      <h5>Introduce</h5>
-      {introduceDescription}
-      <Button style={BUTTON_TYPE.BG_BLACK}>Get ticket &gt;</Button>
+    <section className="hero-introduce">
+      <h3>Introduce</h3>
+      <div className="text-xl">{introduceDescription}</div>
+      <a
+        href="http://ticket.interpark.com/"
+        target="_blank"
+        className="button button-lg bg-black color-white text-2xl tracking-normal"
+      >
+        Get ticket &gt;
+      </a>
     </section>
   );
 };

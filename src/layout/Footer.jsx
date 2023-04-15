@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../styles/about/AboutItem.module.css';
 import { Facebook, Instagram, Vimeo } from '../assets/social-icons';
 
 const Footer = () => {

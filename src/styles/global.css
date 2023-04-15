@@ -31,10 +31,21 @@ li {
   list-style-type: none;
 }
 
-button {
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button,
+.button {
+  cursor: pointer;
+  width: 100%;
   border: none;
   background-color: transparent;
   font: inherit;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 button:focus {
@@ -48,18 +59,170 @@ button:focus {
 
 h1 {
   font-size: 10rem;
-  font-weight: 900;
   letter-spacing: -0.625rem;
   line-height: 0.875;
 }
 
-h5 {
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
   font-size: 1.875rem;
   letter-spacing: -0.05rem;
 }
 
-h6 {
+h4 {
   font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+.text-4xl {
+  font-size: 3.5rem;
+}
+
+.text-3xl {
+  font-size: 2rem;
+}
+
+.text-2xl {
+  font-size: 1.125rem;
+  letter-spacing: -0.05rem;
+}
+
+.text-xl {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 0.875rem;
+}
+
+.text-md {
+  font-size: 0.75rem;
+}
+
+.text-sm {
+  font-size: 0.625rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.tracking-normal {
+  letter-spacing: 0;
+}
+
+.tracking-wide {
+  letter-spacing: 0.25rem;
+}
+
+.text-black,
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 900;
+}
+
+.uppercase,
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.button-lg {
+  height: 7vh;
+}
+
+.button-md {
+  height: 5vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+/* TODO: vw 기준으로 구체화 */
+.square-md {
+  width: 15vw;
+  height: 15vw;
+}
+
+/* TODO: vw 기준으로 구체화 */
+.square-large {
+  width: 20vw;
+  height: 20vw;
+}
+
+.circle-md {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+}
+
+.square-md,
+.square-large,
+.circle-md,
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start-center {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-black {
+  color: #000;
+}
+
+.table-list {
+  border-top: 1px solid #fff;
+}
+
+.table-item {
+  border-bottom: 1px solid #fff;
 }
 
 #container {
@@ -80,8 +243,8 @@ h6 {
   }
 
   h1 {
-    font-size: 6rem;
-    letter-spacing: -0.4rem;
+    font-size: 5rem;
+    letter-spacing: -0.3rem;
   }
 }
 
