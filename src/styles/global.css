@@ -77,6 +77,11 @@ h4 {
   letter-spacing: -0.04rem;
 }
 
+h5 {
+  font-size: 1.25rem;
+  letter-spacing: -0.04rem;
+}
+
 h6 {
   font-size: 1rem;
 }
@@ -236,12 +241,27 @@ h4 {
   max-width: 1280px;
 }
 
-#about, #time-table, #tickets {
+#about,
+#time-table,
+#tickets {
   scroll-margin-top: 15vh;
 }
 
 main > section {
   margin-top: 15vh;
+}
+
+#top {
+  display: flex;
+  justify-content: end;
+  margin: 20vh 0;
+}
+
+#top button {
+  width: 2rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 /* for mobile */

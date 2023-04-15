@@ -1,0 +1,41 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+
+footer ul {
+  display: flex;
+  gap: 0.75vw;
+}
+
+footer svg {
+  width: 1.75vw;
+  height: 1.75vw;
+}
+
+@media screen and (max-width: 640px) {
+  footer {
+    flex-direction: column;
+  }
+
+  footer h5 {
+    margin-bottom: 0.5vh;
+  }
+
+  footer span {
+    display: block;
+  }
+
+  footer ul {
+    margin-top: 2vh;
+    justify-content: end;
+    gap: 3vw;
+  }
+
+  footer svg {
+    width: 4vw;
+    height: 4vw;
+  }
+}

@@ -14,15 +14,17 @@ function App() {
         <TimeTable />
         <Tickets />
       </main>
-      <button
-        className="color-white"
-        onClick={() => {
-          scrollTo({ top: 0, behavior: 'smooth' });
-        }}
-      >
-        ↑<br />
-        Top
-      </button>
+      <div id="top">
+        <button
+          className="color-white"
+          onClick={() => {
+            scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+        >
+          ↑<br />
+          Top
+        </button>
+      </div>
       <Footer />
     </div>
   );
