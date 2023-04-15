@@ -1,0 +1,81 @@
+/* About main section */
+.about-main-container {
+  position: relative;
+}
+
+.about-main {
+  gap: 15vw;
+}
+
+.about-description > p {
+  margin-bottom: 4vh;
+}
+
+.about-hashtag {
+  position: absolute;
+  left: 4vw;
+  bottom: 4vh;
+}
+
+/* Long Image Divider */
+.about-main-container img {
+  margin-top: 10vh;
+}
+
+/* Key Points */
+.about-key-points {
+  display: flex;
+  margin-top: 20vh;
+  height: 60vh;
+}
+
+.about-key-points li {
+  position: relative;
+}
+
+.about-key-points li img {
+  margin: 0 auto;
+  width: 16vw;
+}
+
+.about-key-points h4 {
+  position: absolute;
+  top: -1.5vh;
+  left: 2rem;
+}
+
+.about-key-points li > div {
+  position: absolute;
+  top: 15vh;
+  padding: 2rem;
+}
+
+.about-key-points p {
+  margin-bottom: 2vh;
+}
+
+@media screen and (max-width: 640px) {
+  .about-key-points {
+    height: 100%;
+    flex-direction: column;
+    margin-top: 10vh;
+    gap: 4vh;
+  }
+
+  .about-key-points li > div {
+    position: static;
+  }
+
+  .about-key-points li img {
+    margin-left: 10vw;
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 960px) and (min-width: 640px) {
+  .about-key-points li > div {
+    position: absolute;
+    top: 10vh;
+    padding: 2rem;
+  }
+}

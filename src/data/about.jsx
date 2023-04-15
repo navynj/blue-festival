@@ -11,17 +11,17 @@ export const aboutDescription = (
       Get ready for a musical experience like no other! Blue Festival is back,
       and it's bigger and bluer than ever before. This two-day festival
       celebrates all things blue, with a lineup of talented musicians who will
-      have you tapping your feet and singing along. <br /> Join us on [insert
-      dates and location] for a weekend of great music, delicious food, and good
-      vibes. With two stages and a diverse lineup of blues, jazz, rock, and
-      more, there's something for everyone at Blue Festival. <br /> But that's
-      not all! We also have a wide variety of vendors offering tasty treats and
-      refreshing drinks, as well as interactive art installations and activities
-      for all ages. Whether you're a seasoned festival-goer or a first-timer,
-      you won't want to miss this one-of-a-kind event. Get your tickets now and
-      get ready to paint the town blue! Don't miss out on the fun – grab your
-      friends and family and come experience the magic of Blue Festival. See you
-      there!
+      have you tapping your feet and singing along.
+      <p></p>Join us on dates and location for a weekend of great music,
+      delicious food, and good vibes. With two stages and a diverse lineup of
+      blues, jazz, rock, and more, there's something for everyone at Blue
+      Festival. <br /> But that's not all! We also have a wide variety of
+      vendors offering tasty treats and refreshing drinks, as well as
+      interactive art installations and activities for all ages. Whether you're
+      a seasoned festival-goer or a first-timer, you won't want to miss this
+      one-of-a-kind event. Get your tickets now and get ready to paint the town
+      blue! Don't miss out on the fun – grab your friends and family and come
+      experience the magic of Blue Festival. See you there!
     </p>
     <p>
       Come and find your blue groove, celebrate the power of blue music, and
@@ -30,34 +30,36 @@ export const aboutDescription = (
   </>
 );
 
-export const hashtags = [
-  '#BlueFestival',
-  '#BlueMusic',
-  '#TrueBlue',
-  '#FindYourBlueGroove',
-  '#BlueRevolution',
-  '#BlueCommunity',
-  '#FeelTheRhythmOfTheBlue',
-  '#BlueVibes',
-  '#CelebrateBlue',
-  '#ImmerseInBlue',
-  '#BlueExperience',
-  '#TheBluesComeAlive',
-  '#MusicInBlue',
-  '#BlueCelebration',
-  '#BlueConnection',
+export const aboutHashtags = [
+  'BlueFestival',
+  'BlueMusic',
+  'TrueBlue',
+  'FindYourBlueGroove',
+  'BlueRevolution',
+  'BlueCommunity',
+  'FeelTheRhythmOfTheBlue',
+  'BlueVibes',
+  'CelebrateBlue',
+  'ImmerseInBlue',
+  'BlueExperience',
+  'TheBluesComeAlive',
+  'MusicInBlue',
+  'BlueCelebration',
+  'BlueConnection',
 ];
 
 /**
  * @typedef KeyPoint
  * @prop {string} title The title of key point
+ * @prop {string} src The image source path of key point
  * @prop {React.ReactNode} description The descriptoin paragraph element
  */
 
 /** @type KeyPoint[] */
-export const keyPoints = [
+export const aboutKeyPoints = [
   {
     title: 'Music',
+    src: '/images/blue-square-1.png',
     description: (
       <>
         <p>
@@ -76,6 +78,7 @@ export const keyPoints = [
   },
   {
     title: 'Community',
+    src: '/images/blue-square-2.png',
     description: (
       <>
         <p>
@@ -94,6 +97,7 @@ export const keyPoints = [
   },
   {
     title: 'Sustainability',
+    src: '/images/blue-square-3.png',
     description: (
       <>
         <p>
