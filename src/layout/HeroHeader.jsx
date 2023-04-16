@@ -8,8 +8,7 @@ import Nav from '../components/hero-header/Nav';
 const Top = () => {
   return (
     <>
-      {/* autoPlay loop muted */}
-      <video className="hero-bg">
+      <video className="hero-bg" autoPlay loop muted>
         <source src="/video/blue-satin.mp4" type="video/mp4" />
       </video>
       <div className="hero-content">
