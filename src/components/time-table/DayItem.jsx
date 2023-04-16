@@ -1,7 +1,17 @@
 import React from 'react';
 
-const DayItem = () => {
-  return <div>DayItem</div>;
+/**
+ *
+ * @param {{day: number}} DayItemProps
+ * @returns React.ReactNode
+ */
+const DayItem = ({ day }) => {
+  return (
+    <div className="day-item text-center">
+      <h4>Day</h4>
+      <span className="text-4xl">{day}</span>
+    </div>
+  );
 };
 
 export default DayItem;

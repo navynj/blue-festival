@@ -1,0 +1,42 @@
+.time-table-content {
+  margin-top: 4vh;
+  gap: 4vw;
+}
+
+.time-table-item {
+  gap: 6vw;
+}
+
+.day-item {
+  line-height: 1.2;
+  font-weight: 900;
+}
+.table {
+  border-top: 0.5px solid #fff;
+}
+
+.table > li {
+  display: flex;
+  align-items: center;
+  height: 7vh;
+  padding: 0 2vw;
+  border-bottom: 0.5px solid #fff;
+  overflow-y: scroll;
+}
+
+.time-list {
+  margin-top: 4vh;
+  flex-shrink: 0;
+}
+
+.time-list > li {
+  display: flex;
+  justify-content: center;
+  height: 7vh;
+}
+
+@media screen and (max-width: 960px) {
+  .time-list {
+    font-size: 0.5rem !important;
+  }
+}

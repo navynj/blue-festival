@@ -11,7 +11,7 @@ export const timeList = [
   '21 : 00',
 ];
 
-export const StageList = [
+export const tableList = [
   [
     'Opening Act (Blues Guitarist)',
     'Bluegrass Band',
