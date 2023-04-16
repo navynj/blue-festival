@@ -1,0 +1,58 @@
+#tickets {
+  gap: 4vw;
+}
+
+.tickets-title {
+  position: relative;
+}
+
+.tickets-title > h2 {
+  position: absolute;
+  top: -2vh;
+}
+
+.tickets-title > img {
+  margin-left: 2vw;
+}
+
+.pass-list {
+  gap: 8vw;
+  align-items: end;
+}
+
+.pass-list > li {
+  gap: 2vh;
+}
+
+.pass-list > li > div {
+  text-align: right;
+}
+
+.pass-description {
+  margin-top: 2vh;
+}
+
+.pass-description > li {
+  list-style-type: disc !important;
+}
+
+@media screen and (max-width: 640px) {
+  .tickets-title > img {
+    width: 50vw;
+  }
+
+  #tickets,
+  .pass-list {
+    flex-direction: column !important;
+  }
+
+  #tickets {
+    width: 100%;
+    align-items: center;
+  }
+
+  .pass-list {
+    width: 70vw;
+    margin: 0 atuo;
+  }
+}

@@ -8,7 +8,7 @@
 /** @type Pass[] */
 export const passList = [
   {
-    name: 'General Admission Pass',
+    name: 'General\n Admission Pass',
     price: 75,
     description: [
       'Provides access to both days of the festival',
